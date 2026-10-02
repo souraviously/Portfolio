@@ -1,0 +1,40 @@
+/* -------Tailwind------ */
+@import "tailwindcss";
+
+/* ----------Container-------- */
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+/* ----------Themes-------- */
+@theme{
+    --font-poppins: "Poppins", "sans-serif";
+    --font-soldier: "Big Shoulders", "sans-serif";
+    --color-Primary: #161616;
+    --color-second: #212121;
+    --color-borderCol: #333332;
+    --color-brand: #E5E3DC;
+    --color-coffee: #BF4A1A;
+}
+
+.container {
+  width: 100%;
+  @media (width >= 40rem /* 640px */) {
+    max-width: 40rem /* 640px */;
+  }
+  @media (width >= 48rem /* 768px */) {
+    max-width: 48rem /* 768px */;
+  }
+  @media (width >= 64rem /* 1024px */) {
+    max-width: 64rem /* 1024px */;
+  }
+  @media (width >= 80rem /* 1280px */) {
+    max-width: 80rem /* 1280px */;
+  }
+  @media (width >= 88rem /* 1280px */) {
+    max-width: 90rem /* 1280px */;
+  }
+  @media (width >= 96rem /* 1536px */) {
+    max-width: 96rem /* 1536px */;
+  }
+}
