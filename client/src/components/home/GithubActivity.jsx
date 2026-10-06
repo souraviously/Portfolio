@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { FiArrowUpRight, FiCalendar, FiGitBranch, FiUsers } from 'react-icons/fi'
 
-const GITHUB_USERNAME = 'souravson1'
+const GITHUB_USERNAME = 'souraviously'
 const GITHUB_PROFILE = `https://github.com/${GITHUB_USERNAME}`
 const CONTRIBUTION_GRAPH = `https://ghchart.rshah.org/BF4A1A/${GITHUB_USERNAME}`
 
